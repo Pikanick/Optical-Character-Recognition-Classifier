@@ -76,8 +76,7 @@ class NaiveBayesClassifier(classificationMethod.ClassificationMethod):
         for i in range(len(trainingData)):
             datum = trainingData[i]
             label = trainingLabels[i]
-            "*** YOUR CODE HERE to complete populating commonPrior, commonCounts, and commonConditionalProb ***"
-            # util.raiseNotDefined()
+    
             commonPrior[label] += 1
             for feature, value in datum.items():
                 if value > 0:
@@ -172,8 +171,6 @@ class NaiveBayesClassifier(classificationMethod.ClassificationMethod):
 
         Note: you may find 'self.features' a useful way to loop through all possible features
         """
-        "*** YOUR CODE HERE, to populate featureOdds based on above formula. ***"
-        # util.raiseNotDefined()
 
         featuresOdds = []
         odds = util.Counter()
