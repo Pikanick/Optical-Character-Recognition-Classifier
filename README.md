@@ -12,7 +12,7 @@ This repository contains the implementation of three classifiers used for Optica
 - [Feature Engineering](#feature-engineering)
 - [Installation and Usage](#installation-and-usage)
 - [Results](#results)
-- [Contributors](#contributors)
+- [License](#license)
 
 ## Introduction
 
@@ -71,6 +71,7 @@ An essential part of this project is the enhancement of features used by the cla
 
 The classifiers were tested on a validation and test set of digit images. The Perceptron classifier achieved approximately 82% validation accuracy and 75% test accuracy. The Naïve Bayes and MIRA classifiers showed comparable performance, with potential improvements using enhanced feature extraction.
 
-## Contributors
+## License
 
-- **Nicolas Ramirez** - Implementation and analysis.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
