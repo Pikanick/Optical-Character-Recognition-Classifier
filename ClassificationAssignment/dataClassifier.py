@@ -57,9 +57,6 @@ def enhancedFeatureExtractorDigit(datum):
     """
     features = basicFeatureExtractorDigit(datum)
 
-    "*** YOUR CODE HERE to extract and add enhanced features to features list ***"
-    # util.raiseNotDefined()
-
     # Feature: Diagonal gradients
     for x in range(1, DIGIT_DATUM_WIDTH):
         for y in range(1, DIGIT_DATUM_HEIGHT - 1):  # Ensure y + 1 is within bounds
