@@ -51,8 +51,6 @@ class PerceptronClassifier:
         for iteration in range(self.max_iterations):
             print("Starting iteration ", iteration, "...")
             for i in range(len(trainingData)):
-                "*** YOUR CODE HERE ***"
-                # util.raiseNotDefined()
                 #compute score for each label:
                 scores = util.Counter()  # to store scores of each label.
                 for label in self.legalLabels:  # use training data to adjust the weights based on classification errors
