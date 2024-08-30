@@ -64,8 +64,6 @@ class MiraClassifier:
         bestAccuracyCount = -1  # best accuracy so far on validation set
         cGrid.sort(reverse=True)
         bestParams = cGrid[0]
-        "*** YOUR CODE HERE ***"
-        #util.raiseNotDefined()
 
         bestWeights = None
 
@@ -114,8 +112,7 @@ class MiraClassifier:
         Recall that a datum is a util.counter...
         """
         guesses = []
-        "*** YOUR CODE HERE ***"
-        # util.raiseNotDefined()
+
         for datum in data:
             scores = util.Counter()
             for label in self.legalLabels:  # computing the scores for each label to predict the label of a new data instance.
@@ -130,8 +127,6 @@ class MiraClassifier:
         """
         featuresWeights = []
 
-        "*** YOUR CODE HERE ***"
-        # util.raiseNotDefined()
         weights = self.weights[label]
         featuresWeights = weights.sortedKeys()[:100]
         return featuresWeights
