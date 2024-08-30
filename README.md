@@ -1,6 +1,3 @@
-# Optical-Character-Recognition-Classifier
-This repository contains the implementation of three classifiers used for Optical Character Recognition (OCR) of handwritten digit images: Naïve Bayes Classifier, Perceptron Classifier, and MIRA (Margin-Infused Relaxed Algorithm) Classifier. 
-
 # Optical Character Recognition Classifier
 
 This repository contains the implementation of three classifiers used for Optical Character Recognition (OCR) of handwritten digit images: **Naïve Bayes Classifier**, **Perceptron Classifier**, and **MIRA (Margin-Infused Relaxed Algorithm) Classifier**. The classifiers are tested on a dataset of scanned handwritten digit images (0-9) and are designed to achieve a high level of accuracy on this task using simple features.
